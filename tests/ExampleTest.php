@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace NerdsCorner\NanoBanana\Tests;
 
 use PHPUnit\Framework\TestCase;
 
