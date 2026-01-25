@@ -2,6 +2,4 @@
 
 namespace NerdsCorner\NanoBanana;
 
-class NanoBananaClass
-{
-}
+class NanoBananaClass {}
