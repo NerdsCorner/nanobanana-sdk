@@ -27,17 +27,17 @@ class NanoBanana
     {
         // Generate image using NanoBanana API
         return $this->httpClient->post('/v1beta/models/'.$model.':generateContent', [
-        'headers' => [
-            'x-goog-api-key' => $this->apiKey,
-            'Content-Type' => 'application/json',
-        ],
-        'json' => [
-            'contents' => [
-                [
-                    'parts' => ['text' => $prompt]
-                ]
+            'headers' => [
+                'x-goog-api-key' => $this->apiKey,
+                'Content-Type' => 'application/json',
             ],
-        ]
+            'json' => [
+                'contents' => [
+                    [
+                        'parts' => ['text' => $prompt],
+                    ],
+                ],
+            ],
         ]);
     }
 }
